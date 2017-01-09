@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11.08.2014, 14:08:48
+    Author     : ivo_leng4
+*/
+
+body {
+      background: url(/images/p5.png);
+}
+.table {
+    background-color: white;
+}
+.parent:hover .child, .parent.hover .child { display: block; }
+
+#resSearch {
+    margin-top: 60px;
+}

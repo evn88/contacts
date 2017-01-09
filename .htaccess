@@ -1,0 +1,11 @@
+Options All -Indexes
+#GZIP /при включении ругается что нехватает ресурсов =(
+#AddOutputFilterByType DEFLATE text/html
+#AddOutputFilterByType DEFLATE text/plain
+#AddOutputFilterByType DEFLATE text/xml
+#AddOutputFilterByType DEFLATE text/css
+#AddOutputFilterByType DEFLATE application/javascript
+AddType application/x-7z-compressed .7z
+#RewriteEngine On
+#RewriteCond %{HTTPS} off
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI}
