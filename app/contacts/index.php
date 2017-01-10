@@ -29,6 +29,9 @@
                         <li class="panel panel-body"><small>Всего контактов: <?php echo countPeople() . ' | Справочник открыли ' . page_referesh() . 'раз(а)'; ?></small></li>
                     </ul>
                 </li>
+                <li>
+                    <a href="javascript:window.print()" title="Печать справочника"><i class="glyphicon glyphicon-print"></i></a>
+                </li>
                 
             </ul>
             
